@@ -2,17 +2,16 @@
 
 **Developed by: Muhammad Usman**
 
-A high-performance, real-time Credit Card Scanner application built using **Flutter** and **Google ML Kit**. This app solves common camera lag issues, uses custom logic to filter card numbers accurately, and features a premium, banking-standard UI.
-
-
+A high-performance, real-time Credit Card Scanner application built using **Flutter** and **Google ML Kit**. This app solves common camera lag issues, uses custom logic to filter card numbers accurately, and automatically extracts **Card Numbers, Expiry Dates, and Holder Names**.
 
 ## 🚀 Key Features
 
 - **⚡ Real-time OCR:** Instant text recognition using Google ML Kit (On-Device).
-- **🧠 Smart Filtering:** Implements "Fast Scan" logic to ignore noise and detect 13-19 digit card numbers starting with valid prefixes (3, 4, 5, 6).
-- **🏎️ Performance Optimized:** Optimized `ImageByte` conversion pipeline to prevent camera lag and ensure 60 FPS scanning.
+- **👤 Name Extraction:** Automatically detects the **Card Holder Name** by filtering out bank keywords (VISA, Debit, etc.).
+- **🧠 Smart Filtering:** Implements "Fast Scan" logic to ignore noise and detect 13-19 digit card numbers.
+- **🏎️ Performance Optimized:** Optimized `ImageByte` conversion pipeline to ensure 60 FPS scanning without lag.
 - **🎨 Modern UI:** Features a **Dark Mode** design with a **Neon Scanner Overlay**, **Glassmorphism** controls, and smooth laser animations.
-- **📳 Haptic Feedback:** Provides vibration feedback upon successful detection and auto-navigation.
+- **📳 Haptic Feedback:** Provides vibration feedback upon successful detection.
 - **🔦 Flashlight Support:** Built-in toggle for low-light scanning environments.
 
 ## 🛠 Plugins Used
@@ -64,7 +63,7 @@ This project relies on the following key Flutter plugins:
 ## 📱 Use Cases
 
 - **E-commerce Apps:** Seamless checkout experience without manual entry.
-- **Fintech Applications:** Quick card onboarding and verification.
+- **Fintech Applications:** Quick card onboarding (Number + Name + Date).
 - **Digital Wallets:** Fast payment method additions.
 
 ## 👨‍💻 Author
@@ -72,7 +71,7 @@ This project relies on the following key Flutter plugins:
 **Muhammad Usman**
 
 - 🔗 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/muhammad-usman-81994a324)
-
+- 
 
 ---
 *© 2026 Muhammad Usman. All Rights Reserved.*
